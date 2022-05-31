@@ -1,0 +1,27 @@
+.brick-layout {
+    box-sizing: content-box;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brick {
+    min-height: 80px;
+    min-width: 50px;
+    margin: 5px;
+    flex-basis: 100px;
+}
+
+.color-aqua:nth-child(2) {
+    flex-grow: 1;   
+}
+
+.color-yellow:nth-child(4),
+.color-yellow:nth-child(6) {
+       flex-grow: 1;
+}
+
+.color-fuchsia:nth-child(8) {
+    flex-grow: 1;
+}
