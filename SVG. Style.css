@@ -1,0 +1,39 @@
+svg {
+    border: 1px solid #dddddd;
+}
+
+svg {
+  border: 1px solid #dddddd;
+}
+.shape-opacity {
+  fill: yellowgreen;
+  fill-opacity: 0.75;
+}
+
+svg {
+  border: 1px solid #dddddd;
+}
+.shape-transparent {
+  fill: none;
+}
+
+svg {
+  border: 1px solid #dddddd;
+}
+
+.rect-1 {
+  fill: tomato;
+}
+
+.rect-2 {
+  fill: lightseagreen;
+  fill-opacity: 0.5;
+}
+
+.rect-3 {
+  fill: #ffd700;
+}
+
+.rect-4 {
+  fill-opacity: 0;
+}
